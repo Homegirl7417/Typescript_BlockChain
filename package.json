@@ -1,0 +1,12 @@
+{
+  "name": "simple-blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Homegirl7417/Typescript_BlockChain",
+  "author": "ParkHyunKyeong <kj3477417@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
