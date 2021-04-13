@@ -6,7 +6,12 @@
   "author": "ParkHyunKyeong <kj3477417@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "@types/node": "14.14.37",
+    "ts-node": "9.1.1",
+    "tsc-watch": "4.2.9",
+    "typescript": "4.2.4"
   }
 }
